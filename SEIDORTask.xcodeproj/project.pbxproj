@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1116ACE02C3903AD00BAD4E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116ACDF2C3903AD00BAD4E9 /* AppDelegate.swift */; };
+		1116ACE22C3903AD00BAD4E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116ACE12C3903AD00BAD4E9 /* SceneDelegate.swift */; };
+		1116ACE72C3903AD00BAD4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1116ACE52C3903AD00BAD4E9 /* Main.storyboard */; };
+		1116ACE92C3903B100BAD4E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1116ACE82C3903B100BAD4E9 /* Assets.xcassets */; };
+		1116ACEC2C3903B100BAD4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1116ACEA2C3903B100BAD4E9 /* LaunchScreen.storyboard */; };
+		1116ACF52C39048200BAD4E9 /* SplashScreenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116ACF42C39048200BAD4E9 /* SplashScreenVC.swift */; };
+		1116ACF82C390CA000BAD4E9 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116ACF72C390CA000BAD4E9 /* LoginVC.swift */; };
+		1116AD022C3912C700BAD4E9 /* CharacterListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1116AD012C3912C700BAD4E9 /* CharacterListVC.swift */; };
+		11923F772C39407900C060A9 /* CharacterDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11923F762C39407900C060A9 /* CharacterDetailsVC.swift */; };
+		11BAE0172C391A600092B137 /* CharacterListCVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BAE0152C391A600092B137 /* CharacterListCVC.swift */; };
+		11BAE0182C391A600092B137 /* CharacterListCVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11BAE0162C391A600092B137 /* CharacterListCVC.xib */; };
+		11BAE01A2C391CFD0092B137 /* CharacterListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BAE0192C391CFD0092B137 /* CharacterListModel.swift */; };
+		11BAE01C2C391D140092B137 /* CharacterListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11BAE01B2C391D140092B137 /* CharacterListService.swift */; };
+		9D70286CC69A1446673A50F2 /* Pods_SEIDORTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C5B80949E8351971AFD110D /* Pods_SEIDORTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1116ACDC2C3903AD00BAD4E9 /* SEIDORTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SEIDORTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1116ACDF2C3903AD00BAD4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1116ACE12C3903AD00BAD4E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1116ACE62C3903AD00BAD4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1116ACE82C3903B100BAD4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1116ACEB2C3903B100BAD4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1116ACED2C3903B100BAD4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1116ACF42C39048200BAD4E9 /* SplashScreenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenVC.swift; sourceTree = "<group>"; };
+		1116ACF72C390CA000BAD4E9 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1116AD012C3912C700BAD4E9 /* CharacterListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListVC.swift; sourceTree = "<group>"; };
+		11923F762C39407900C060A9 /* CharacterDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailsVC.swift; sourceTree = "<group>"; };
+		11BAE0152C391A600092B137 /* CharacterListCVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListCVC.swift; sourceTree = "<group>"; };
+		11BAE0162C391A600092B137 /* CharacterListCVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CharacterListCVC.xib; sourceTree = "<group>"; };
+		11BAE0192C391CFD0092B137 /* CharacterListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListModel.swift; sourceTree = "<group>"; };
+		11BAE01B2C391D140092B137 /* CharacterListService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListService.swift; sourceTree = "<group>"; };
+		59A2F4CDF836355A67887347 /* Pods-SEIDORTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEIDORTask.release.xcconfig"; path = "Target Support Files/Pods-SEIDORTask/Pods-SEIDORTask.release.xcconfig"; sourceTree = "<group>"; };
+		6C5B80949E8351971AFD110D /* Pods_SEIDORTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEIDORTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9765490D6000BF7DB21AE9D4 /* Pods-SEIDORTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEIDORTask.debug.xcconfig"; path = "Target Support Files/Pods-SEIDORTask/Pods-SEIDORTask.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1116ACD92C3903AD00BAD4E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D70286CC69A1446673A50F2 /* Pods_SEIDORTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1116ACD32C3903AC00BAD4E9 = {
+			isa = PBXGroup;
+			children = (
+				1116ACDE2C3903AD00BAD4E9 /* SEIDORTask */,
+				1116ACDD2C3903AD00BAD4E9 /* Products */,
+				47EF012D8D9C453939CD954E /* Pods */,
+				39F7947D48AC7EF8543FF0D7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1116ACDD2C3903AD00BAD4E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1116ACDC2C3903AD00BAD4E9 /* SEIDORTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1116ACDE2C3903AD00BAD4E9 /* SEIDORTask */ = {
+			isa = PBXGroup;
+			children = (
+				1116ACDF2C3903AD00BAD4E9 /* AppDelegate.swift */,
+				1116ACE12C3903AD00BAD4E9 /* SceneDelegate.swift */,
+				1116ACFC2C3911CF00BAD4E9 /* CharacterListPage */,
+				1116ACF62C3907C600BAD4E9 /* LoginPage */,
+				1116ACF32C39045600BAD4E9 /* SplashScreen */,
+				1116ACE52C3903AD00BAD4E9 /* Main.storyboard */,
+				1116ACE82C3903B100BAD4E9 /* Assets.xcassets */,
+				1116ACEA2C3903B100BAD4E9 /* LaunchScreen.storyboard */,
+				1116ACED2C3903B100BAD4E9 /* Info.plist */,
+			);
+			path = SEIDORTask;
+			sourceTree = "<group>";
+		};
+		1116ACF32C39045600BAD4E9 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				1116ACF42C39048200BAD4E9 /* SplashScreenVC.swift */,
+			);
+			name = SplashScreen;
+			sourceTree = "<group>";
+		};
+		1116ACF62C3907C600BAD4E9 /* LoginPage */ = {
+			isa = PBXGroup;
+			children = (
+				1116ACF72C390CA000BAD4E9 /* LoginVC.swift */,
+			);
+			name = LoginPage;
+			sourceTree = "<group>";
+		};
+		1116ACFC2C3911CF00BAD4E9 /* CharacterListPage */ = {
+			isa = PBXGroup;
+			children = (
+				1116ACFE2C39121100BAD4E9 /* Cell */,
+				1116ACFF2C39122200BAD4E9 /* Service */,
+				1116ACFD2C39120400BAD4E9 /* Model */,
+				1116AD002C39123900BAD4E9 /* ViewController */,
+			);
+			path = CharacterListPage;
+			sourceTree = "<group>";
+		};
+		1116ACFD2C39120400BAD4E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11BAE0192C391CFD0092B137 /* CharacterListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1116ACFE2C39121100BAD4E9 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				11BAE0142C391A4A0092B137 /* CharacterListCVC */,
+			);
+			name = Cell;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1116ACFF2C39122200BAD4E9 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				11BAE01B2C391D140092B137 /* CharacterListService.swift */,
+			);
+			name = Service;
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1116AD002C39123900BAD4E9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1116AD012C3912C700BAD4E9 /* CharacterListVC.swift */,
+				11923F762C39407900C060A9 /* CharacterDetailsVC.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		11BAE0142C391A4A0092B137 /* CharacterListCVC */ = {
+			isa = PBXGroup;
+			children = (
+				11BAE0152C391A600092B137 /* CharacterListCVC.swift */,
+				11BAE0162C391A600092B137 /* CharacterListCVC.xib */,
+			);
+			name = CharacterListCVC;
+			sourceTree = "<group>";
+		};
+		39F7947D48AC7EF8543FF0D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C5B80949E8351971AFD110D /* Pods_SEIDORTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47EF012D8D9C453939CD954E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9765490D6000BF7DB21AE9D4 /* Pods-SEIDORTask.debug.xcconfig */,
+				59A2F4CDF836355A67887347 /* Pods-SEIDORTask.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1116ACDB2C3903AD00BAD4E9 /* SEIDORTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1116ACF02C3903B100BAD4E9 /* Build configuration list for PBXNativeTarget "SEIDORTask" */;
+			buildPhases = (
+				72AB1FB5E511CFB4F163B8D9 /* [CP] Check Pods Manifest.lock */,
+				1116ACD82C3903AD00BAD4E9 /* Sources */,
+				1116ACD92C3903AD00BAD4E9 /* Frameworks */,
+				1116ACDA2C3903AD00BAD4E9 /* Resources */,
+				B5D81A2BA9754BBF5B579C48 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SEIDORTask;
+			productName = SEIDORTask;
+			productReference = 1116ACDC2C3903AD00BAD4E9 /* SEIDORTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1116ACD42C3903AC00BAD4E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1116ACDB2C3903AD00BAD4E9 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1116ACD72C3903AC00BAD4E9 /* Build configuration list for PBXProject "SEIDORTask" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1116ACD32C3903AC00BAD4E9;
+			productRefGroup = 1116ACDD2C3903AD00BAD4E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1116ACDB2C3903AD00BAD4E9 /* SEIDORTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1116ACDA2C3903AD00BAD4E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1116ACEC2C3903B100BAD4E9 /* LaunchScreen.storyboard in Resources */,
+				1116ACE92C3903B100BAD4E9 /* Assets.xcassets in Resources */,
+				11BAE0182C391A600092B137 /* CharacterListCVC.xib in Resources */,
+				1116ACE72C3903AD00BAD4E9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72AB1FB5E511CFB4F163B8D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SEIDORTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5D81A2BA9754BBF5B579C48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SEIDORTask/Pods-SEIDORTask-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SEIDORTask/Pods-SEIDORTask-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SEIDORTask/Pods-SEIDORTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1116ACD82C3903AD00BAD4E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1116ACE02C3903AD00BAD4E9 /* AppDelegate.swift in Sources */,
+				1116AD022C3912C700BAD4E9 /* CharacterListVC.swift in Sources */,
+				11BAE01A2C391CFD0092B137 /* CharacterListModel.swift in Sources */,
+				11BAE0172C391A600092B137 /* CharacterListCVC.swift in Sources */,
+				1116ACE22C3903AD00BAD4E9 /* SceneDelegate.swift in Sources */,
+				1116ACF52C39048200BAD4E9 /* SplashScreenVC.swift in Sources */,
+				11923F772C39407900C060A9 /* CharacterDetailsVC.swift in Sources */,
+				1116ACF82C390CA000BAD4E9 /* LoginVC.swift in Sources */,
+				11BAE01C2C391D140092B137 /* CharacterListService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1116ACE52C3903AD00BAD4E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1116ACE62C3903AD00BAD4E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1116ACEA2C3903B100BAD4E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1116ACEB2C3903B100BAD4E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1116ACEE2C3903B100BAD4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1116ACEF2C3903B100BAD4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1116ACF12C3903B100BAD4E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9765490D6000BF7DB21AE9D4 /* Pods-SEIDORTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SEIDORTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ds.SEIDORTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1116ACF22C3903B100BAD4E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59A2F4CDF836355A67887347 /* Pods-SEIDORTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SEIDORTask/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ds.SEIDORTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1116ACD72C3903AC00BAD4E9 /* Build configuration list for PBXProject "SEIDORTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1116ACEE2C3903B100BAD4E9 /* Debug */,
+				1116ACEF2C3903B100BAD4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1116ACF02C3903B100BAD4E9 /* Build configuration list for PBXNativeTarget "SEIDORTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1116ACF12C3903B100BAD4E9 /* Debug */,
+				1116ACF22C3903B100BAD4E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1116ACD42C3903AC00BAD4E9 /* Project object */;
+}
